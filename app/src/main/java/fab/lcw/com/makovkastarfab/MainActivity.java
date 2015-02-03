@@ -79,8 +79,7 @@ public class MainActivity extends ActionBarActivity {
             MyAdapter adapter = new MyAdapter();
             recyclerView.setAdapter(adapter);
             FloatingActionButton fab = (FloatingActionButton) v.findViewById(R.id.button1);
-            fab.setShadow(false);
-            fab.setColorRipple(android.R.color.transparent);
+            fab.setShadow(true);
             fab.attachToRecyclerView(recyclerView);
         }
     }
